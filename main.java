@@ -8,7 +8,7 @@ public class main {
 
         student std = new student(2011, "Zeynepgül", lc);
 //        System.out.println(std.lessons[0].course_cod);
-
+        System.out.println("sela");
 
 
 
