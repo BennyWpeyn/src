@@ -8,6 +8,7 @@ public class main {
 
         Student std = new Student(2011, "Zeynepgül", 2);
         //System.out.println(std.Lessons[0].course_cod);
+        System.out.println("merhaba berkacan");
 
 
 
