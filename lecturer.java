@@ -14,7 +14,7 @@ public class Lecturer {
 
 
     public void addCourse(Lesson ls){
-        if(numCourses >= 9){
+        if(numCourses >= 11){
             System.out.println("This lecturer Access to max course number");
            return;
         }
