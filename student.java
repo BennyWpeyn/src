@@ -1,25 +1,25 @@
-public class student {
+public class Student {
     int id_number;
     String name_surname;
     int year;
     String graduation;
-    lesson lessons;
-    lesson x;
-    int lesson_sayi = 0;
+    Lesson lessons[];
+    int numLessons = 0;
 
-    public student(int id, String name, lesson ls){
+    public Student(int id, String name,int year){
         this.id_number = id;
         this.name_surname = name;
-        x =ls ;
-       // this.lessons[lesson_sayi].course_cod = ls.course_cod;
-        //this.lessons[lesson_sayi].course_name = ls.course_name;
-        //this.lessons[lesson_sayi].credit= ls.credit;
-        lesson_sayi++;
-        
+        this.year = year;
 
     }
 
-    
+    public void addLesson(){
+        
+
+
+
+    }
+
 
 
 }
