@@ -37,6 +37,7 @@ System.out.println("hocam ananı avradın");
 
 
 
+
         
           AddingData data=new AddingData();
          ArrayList<Student>newlist=data.studentData();
