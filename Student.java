@@ -14,7 +14,19 @@ public class Student {
 
     }
 
-    
+    public void addLesson(Lesson ls){
+        lessons[numLessons] = ls;
+        numLessons++;
+    }
+
+
+    public void showLessons(){
+        for(int i = 0; i < numLessons ; i++){
+            System.out.println(lessons[i].course_cod);
+        }
+
+
+    }
 
    
 public void setGraduaiton(String graduation){
