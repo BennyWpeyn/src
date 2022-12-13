@@ -32,8 +32,7 @@ public class main {
                   break;
 
         }
-System.out.println("OLACAK MI");
-System.out.println("hocam ananı avradın");
+
 
 
 
