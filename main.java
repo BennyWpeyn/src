@@ -14,14 +14,14 @@ public class main {
         Student std = new Student(2011, "Zeynepgül", 2,"lisans");
         //System.out.println(std.Lessons[0].course_cod);
         
-        int desicion;
+        /*int desicion;
         System.out.println("wanna add a student yes:1 no:0");
         System.out.println("your choice:");
         desicion=sc.nextInt();
         switch(desicion){
             case 1:
-                 AddingData data2=new AddingData();
-                 data2.studentData();
+                 //AddingData data2=new AddingData();
+                 //data2.studentData();
                  System.out.println("succesfully added");
                  break;
              case 0:
@@ -38,20 +38,20 @@ System.out.println("hocam ananı avradın");
 
 
         
-          AddingData data=new AddingData();
-         ArrayList<Student>newlist=data.studentData();
+          //AddingData data=new AddingData();
+        // ArrayList<Student>newlist=data.studentData();
          
 
-          for(Student st:newlist){
-            System.out.println("name surname:"+ st.name_surname);
-            System.out.println("ıd:"+st.id_number);
-            System.out.println("year:"+st.year);
-            System.out.println("graduaiton:"+st.graduation);
-            System.out.println("\n");
+         // for(Student st:newlist){
+           // System.out.println("name surname:"+ st.name_surname);
+            //System.out.println("ıd:"+st.id_number);
+            //System.out.println("year:"+st.year);
+            //System.out.println("graduaiton:"+st.graduation);
+            //System.out.println("\n");
 
-          }
+          //}
 
-
+          */
 
 
     }
