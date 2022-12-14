@@ -1,9 +1,9 @@
-import java.io.InputStream;
-import java.util.*;
-import java.util.Scanner;
+//import java.io.InputStream;
+//import java.util.*;
+//import java.util.Scanner;
 public class main {
     public static void main(String[] args){
-         Scanner sc=new Scanner(System.in);
+         //Scanner sc=new Scanner(System.in);
 
         Lesson lc = new Lesson(201, " BM giris", 4 );
         System.out.println(lc.course_cod +" "+ lc.course_name + " " + lc.credit  );
@@ -11,7 +11,7 @@ public class main {
         
 
 
-        Student std = new Student(2011, "Zeynepgül", 2,"lisans");
+        Student std = new Student(2011, "Zeynepgül", 2);
         //System.out.println(std.Lessons[0].course_cod);
         
         /*int desicion;

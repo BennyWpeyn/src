@@ -19,15 +19,15 @@ ArrayList<Student> studentData(){
     System.out.print("graduation:");
     String grad=sc2.nextLine();
 
-    Student std2=new Student(id, name, year, grad);
+    Student std2=new Student(id, name, year);
 
 
 
 
 //create 3 objects of Student class 
-    Student s1=new Student(45,"berkecan",2,"lisans");
-    Student s2=new Student(62,"melike",4,"doktora");
-    Student s3=new Student(10,"nilsu",3,"lisans");
+    Student s1=new Student(45,"berkecan",2);
+    Student s2=new Student(62,"melike",4);
+    Student s3=new Student(10,"nilsu",3);
 
 
     
